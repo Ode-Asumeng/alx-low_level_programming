@@ -4,13 +4,14 @@
  *
  * @s: string to be encoded
  *
- *  Return: the resulting string
+ * Return: the resulting string
  */
 char *leet(char *s)
 {
 	int x = 0, y, uc = 0;
 	int lc[5] = {97, 101, 111, 116, 108};
 	int code[5] = {4, 3, 0, 7, 1};
+
 
 	while (*(s + x))
 	{
@@ -25,4 +26,4 @@ char *leet(char *s)
 		x++;
 	}
 	return (s);
-}				
+}
